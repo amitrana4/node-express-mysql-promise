@@ -1,0 +1,22 @@
+{
+  "name": "installment_reminder",
+  "version": "1.0.0",
+  "description": "remider of intallments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amit Rana",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "joi": "^13.3.0",
+    "jsonwebtoken": "^8.2.1",
+    "knex": "^0.14.6",
+    "mysql": "^2.15.0",
+    "objection": "^1.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
