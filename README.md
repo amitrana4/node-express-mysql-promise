@@ -4,12 +4,12 @@ proper folder structure with Node, MySQL,Express,Joi and promises
 
 # To start 
 node index.js 
-or 
+# Start with ENV
 NODE_ENV=test DB_USER=root DB_PASSWORD=root DB_IP=localhost DB_NAME=demo node index.js
 
 
 
-# you need to create database with table name user.
+# create table user.
   CREATE TABLE `user` (
     `id` int(10) NOT NULL,
     `user_id` varchar(255) DEFAULT NULL,
@@ -42,24 +42,22 @@ NODE_ENV=test DB_USER=root DB_PASSWORD=root DB_IP=localhost DB_NAME=demo node in
   
   
   ########################################
-  Starting with index.js
+  # index.js
   All routes comes from route folder, Index file of each folder will help you.
-  
   In routes you will learn Joi validations.
-  Then move to
   
   # Controllers
   Nice promises and await functions.
   
   
-  # Promises
+  # Promises
   Common promises.
   
-  #Service
+  # Service
   Database connection with the help of pool.
   common function for insert update delete with the help of promises and await.
   
-  #Token
+  # Token
   In Utils folder you will find the token manager.
   
   
