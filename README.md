@@ -5,7 +5,7 @@ proper folder structure with Node, MySQL,Express,Joi and promises
 # To start 
 node index.js 
 or 
-NODE_ENV=test DB_USER=root DB_PASSWORD=mind@123 DB_IP=localhost DB_NAME=demo node index.js
+NODE_ENV=test DB_USER=root DB_PASSWORD=root DB_IP=localhost DB_NAME=demo node index.js
 
 
 
@@ -50,7 +50,7 @@ ALTER TABLE `user`
   
   
   
-  ##############################################################################################
+  ######
   Starting with index.js
   All routes comes from route folder, Index file of each folder will help you.
   
