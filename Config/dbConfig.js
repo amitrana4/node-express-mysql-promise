@@ -5,8 +5,8 @@ var mysql = require('mysql');
 var mysql_pool  = mysql.createPool({
     host            : process.env.DB_IP || 'localhost',
     user            : process.env.DB_USER || 'root',
-    password        : process.env.DB_PASSWORD || 'mind@123',
-    database        : process.env.DB_NAME || 'eeg'
+    password        : process.env.DB_PASSWORD || 'hello@123',
+    database        : process.env.DB_NAME || 'test'
   });
  
 
