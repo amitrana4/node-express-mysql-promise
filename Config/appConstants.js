@@ -17,7 +17,7 @@ var SERVER = {
         HAPI: PORT
     },
     TOKEN_EXPIRATION_IN_MINUTES: 600,
-    JWT_SECRET_KEY: 'sUPerSeCuREKeY&^$^&$^%$^%7782348723t4872t34Ends',
+    JWT_SECRET_KEY: 'sUPerDuperSeCuREKeY&^$^&$^%$^%7782348723t4872t34Ends',
     COUNTRY_CODE : '+91',
     DOMAIN_NAME : 'http://localhost:8000/',
     SUPPORT_EMAIL : 'support@amitrana.com'
